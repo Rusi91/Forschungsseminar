@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ruslan Asabidi">
+    <meta name="description" content="startpage">
+    <meta name="keywords" content="video, Bearbeitung, KZ, Forschungsseminar">
+    <title>Videoanalyse</title>
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+
+<body>
+
+    <h1>Videoanalyse</h1>
+    <content>
+    
+        <div id="navigation-bar" class="navigation-bar">
+            <ul>
+                <!--navigation points such as video or video collection.-->
+                <li class="nav-point video">Video</li>
+                <li class="nav-point collection">Sammlung</li>
+                <li class="nav-point search">Suche</li>
+            </ul>
+        </div>
+        <!--section for notes-->
+        <div class="comment-section">
+            <div class="comments-title"><h1>Kommentare</h1></div>
+            <div class="comments">
+                <input type="text" class="description-input" />
+                <span class="button save-comment">Notiz speichern</span>
+                <ol class="saved-comments">
+                    <!-- List of saved comments-->
+                </ol>
+            </div>
+        </div>
+
+        <div id="main" class="main">
+            <!--video player-->
+            <div class="video-section">
+                <div id="player">
+                    <video>
+                    </video>
+                    <div class="controls">
+                        <span class="button play paused"></i></span>
+                        <span class="button stop"></span>
+                        <span class="button file"></span>
+                        <input class="upload" type="file">
+                        <input class="seekbar" value="0" min="0" max="1000" type="range">
+                        <span class="label time">00:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p><a >Hauptverantworliche: Ruslan Asabidi E-Mail:ruslanasabidi@gmail.com</a> | erstellt am <time datetime="2020-11-02">02.11.2020</time></p>
+        </footer>
+    </content>
+    
+    <script type="module" src="resources/js/index.js"></script>
+</body>
+
+</html>
