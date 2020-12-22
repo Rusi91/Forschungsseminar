@@ -1,6 +1,6 @@
 # Kurszugehörigkeit
 
-Mein Einzelprojekt für das Forschungsseminar (Medieninformatik) zum Thema 
+Mein Einzelprojekt für das Forschungsseminar (Medieninformatik) zum Thema: 
 
 "Das Grauen identifizieren: Aufbereitung und
 Visualisierung von historischen Daten am Beispiel
@@ -11,8 +11,9 @@ Es handelt sich um eine Webanwendung. Sie besteht aus einem Videoplayer und eine
 # Informationen zur Anwendung
 
 Eine ausführliche Erklärung der Anwendung mit Screenshots finden Sie in der Datei "Erklärung.pdf".
+Darin finden Sie auch einen Link um die Anwendung ohne Code oder Quelltexteditor zu testen.
 
 # Technische Anforderungen
 
-Empfohlen ist ein Quelltexteditor (z.b. Visual Studio Code) und ein JavaScript Package.
+Empfohlen ist ein JavaScript-fähiger Quelltexteditor (z.b. Visual Studio Code).
 
