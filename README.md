@@ -1,4 +1,4 @@
-# Forschungsseminar
+# Kurszugehörigkeit
 
 Mein Einzelprojekt für das Forschungsseminar (Medieninformatik) zum Thema 
 
